@@ -3,22 +3,22 @@ from tkinter import *
 # Creating the starting window
 window = Tk()
 window.title("Quizsport")
-window.geometry("800x800")
+window.geometry("1920x1080")
 window.configure(bg="white")
 
 # Defining Photoimages
 logo = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\logo.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\logo.png")
 illus = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\illus.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\illus.png")
 alogo = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\alogo.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\alogo.png")
 contillus = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\contillus.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\contillus.png")
 anadmin = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\anadmin.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\anadmin.png")
 astudent = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\astudent.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\astudent.png")
 
 # Placing the Header Area
 head = Label(window, text="EzyQzy", bg="white",
@@ -37,7 +37,7 @@ def continueAs():
     contWin = Toplevel()
     contWin.title('EzyQzy')
     contWin.configure(bg="white")
-    contWin.geometry("800x800")
+    contWin.geometry("1920x1080")
 
     head2 = Label(contWin, text="EzyQzy", bg="white",
                   fg="#22A9BB", font=("Helvetica 30 bold"), image=alogo, compound=LEFT)
@@ -68,7 +68,7 @@ def continueAs():
 
 # GET Started button:
 click_btn = PhotoImage(
-    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\GET STARTED.png")
+    file="C:\\sandesh\\Python\\tkinterrr\\FirstSem Project\\Login-Reg\\Images\\GET STARTED.png")
 
 # creating a dummy button and passing the image
 button = Button(window, image=click_btn, command=continueAs,
