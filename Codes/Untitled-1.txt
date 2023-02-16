@@ -1,0 +1,6 @@
+-- database: c:\Users\pooja\Desktop\QuizProject\crud.db
+
+-- Shift+Enter or Ctrl+Shift+Q (query): Executes a statement on the cursor.
+-- Ctrl+Shift+E (executescript): Executes the entire file without displaying the results.
+CREATE TABLE "table-name" ("subjectname, questionstext, option1, option2, option3, option4, answer
+");
