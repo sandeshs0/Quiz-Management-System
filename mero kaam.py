@@ -80,7 +80,7 @@ def continueAs():
 getstartedbut =Button(window,fg="#020439", bg="white",image=click_btn,command=continueAs,compound=BOTTOM)
 getstartedbut.grid(column=0,padx=100,pady=15)
     
-signuptext =Label(window, text= "You new to this motherfucker?,sign up then:",
+signuptext =Label(window, text= "Are you new? Sign Up!",
     fg="#020439", bg="white", font=("Poppins italic", 20),compound=TOP)
 signuptext.grid(column=0,padx=120,pady=20)
 
